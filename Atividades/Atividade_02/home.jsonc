@@ -1,0 +1,23 @@
+{
+    "store.home": {
+        "blocks": [
+            "livestreaming",
+            "flex-layout.row#home-main-banner",
+            "flex-layout.row#categories",
+            "flex-layout.row#default-shelf-1",
+            "responsive-layout.desktop#grid-banners",
+            "responsive-layout.mobile#grid-banners",
+            "flex-layout.row#default-shelf-2",
+            "flex-layout.row#two-banners-row",
+            "responsive-layout.desktop#shelf-3",
+            "flex-layout.row#brands-categories-slider",
+            "flex-layout.row#only-one-banner",
+            "flex-layout.row#default-shelf-4",
+            "responsive-layout.desktop#ambience-slider",
+            "responsive-layout.desktop#blog-home",
+            "responsive-layout.mobile#ambience-categories",
+            "responsive-layout.mobile#mobile-blog-home",
+            "back-to-top-button"
+        ]
+    }
+}
