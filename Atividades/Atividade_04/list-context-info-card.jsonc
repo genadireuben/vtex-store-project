@@ -1,0 +1,147 @@
+{
+  "flex-layout.row#home-info-slider": {
+    "title": "Info Slider",
+    "props": {
+      "fullWidth": false,
+      "paddingTop": {
+        "desktop": 5,
+        "tablet": 5,
+        "phone": 0
+      },
+      "paddingBottom": {
+        "desktop": 6,
+        "tablet": 6,
+        "phone": 0
+      },
+      "marginTop": {
+        "desktop": 0,
+        "tablet": 0,
+        "phone": 0
+      },
+      "marginBottom": {
+        "desktop": 0,
+        "tablet": 0,
+        "phone": 0
+      },
+      "colGap": {
+        "desktop": 0,
+        "tablet": 0,
+        "phone": 0
+      },
+      "borderWidth": 0,
+      "colSizing": "auto",
+      "preventHorizontalStretch": false,
+      "horizontalAlign": "left",
+      "preserveLayoutOnMobile": false
+    },
+    "children": [
+      "flex-layout.col#generic-slider-categories"
+    ]
+  },
+  "flex-layout.col#generic-slider-categories": {
+    "title": "Container slider",
+    "children": [
+      "rich-text#generic-slider-title",
+      "list-context.info-card-list#generic-slider"
+    ],
+    "props": {
+      "blockClass": [
+        "slider-generic"
+      ]
+    }
+  },
+  "rich-text#generic-slider-title": {
+    "title": "RichText: Título da Sessão",
+    "props": {
+      "text": "Componente Teste",
+      "blockClass": [
+        "generic-slider-title"
+      ]
+    }
+  },
+  "list-context.info-card-list#generic-slider": {
+    "title": "Lista: Banners",
+    "children": [
+      "slider-layout#generic-slider"
+    ],
+    "props": {
+      "infoCards": [
+        {
+          "id": "categoria-1",
+          "textMode": "rich-text",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "textAlignment": "center",
+          "callToActionMode": "link",
+          "callToActionText": "Nome categoria",
+          "callToActionUrl": "#",
+          "imageUrl": "https://criativa-roupas.vtexassets.com/assets/vtex.file-manager-graphql/images/image-teste.png",
+          "link": "#"
+        },
+        {
+          "id": "categoria-2",
+          "textMode": "rich-text",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "textAlignment": "center",
+          "callToActionMode": "link",
+          "callToActionText": "Nome categoria",
+          "callToActionUrl": "#",
+          "imageUrl": "https://criativa-roupas.vtexassets.com/assets/vtex.file-manager-graphql/images/image-teste.png",
+          "link": "#"
+        },
+        {
+          "id": "categoria-3",
+          "textMode": "rich-text",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "textAlignment": "center",
+          "callToActionMode": "link",
+          "callToActionText": "Nome categoria",
+          "callToActionUrl": "#",
+          "imageUrl": "https://criativa-roupas.vtexassets.com/assets/vtex.file-manager-graphql/images/image-teste.png",
+          "link": "#"
+        },
+        {
+          "id": "categoria-4",
+          "textMode": "rich-text",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "textAlignment": "center",
+          "callToActionMode": "link",
+          "callToActionText": "Nome categoria",
+          "callToActionUrl": "#",
+          "imageUrl": "https://criativa-roupas.vtexassets.com/assets/vtex.file-manager-graphql/images/image-teste.png",
+          "link": "#"
+        },
+        {
+          "id": "categoria-5",
+          "textMode": "rich-text",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "textAlignment": "center",
+          "callToActionMode": "link",
+          "callToActionText": "Nome categoria",
+          "callToActionUrl": "#",
+          "imageUrl": "https://criativa-roupas.vtexassets.com/assets/vtex.file-manager-graphql/images/image-teste.png",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "slider-layout#generic-slider": {
+    "title": "Slider de categorias",
+    "props": {
+      "blockClass": [
+        "generic-slider"
+      ],
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      }
+    }
+  }
+}
