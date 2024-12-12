@@ -1,1 +1,1 @@
-# Projetinho em vtex para demonstrar meus conhecimentos.
+# Some Vtex chunk code
